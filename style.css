@@ -1,9 +1,10 @@
 body {
     max-width: 450px;
-    margin: 10px auto;
+    margin: 0 auto;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(213, 244, 249);
+    line-height: 1.6;
 }
 
 h1, div, a {
@@ -18,12 +19,19 @@ h1, div {
 
 h1 {
     padding: 5px;
-    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: -8px;
+    display: inline-block;
 }
 
-ul  {
+h2 {
+    margin-top: 5px;
+    margin-bottom: -15px;
+}
+
+ul, ol  {
     list-style: none;
-    padding-left: 0;
+    padding-left: 0px;
 }
 
 div {
@@ -37,11 +45,35 @@ a {
     padding: 10px;
 }
 
-a:hover {
+a:hover:not(#home) {
     font-size: 18px;
     background-color: rgb(164, 40, 40);
 }
 
 img {
     border-radius: 15px;
+    margin-top: 20px;
+}
+
+#home:hover {
+    background-color: rgb(34, 148, 24);
+}
+
+p {
+    text-align: justify;
+}
+
+#home {
+    text-align: center;
+    margin: 5px auto;
+    padding: 0px 8px;
+    max-width: 44px;
+    display: block;
+    background-color: rgb(10, 96, 3);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#intro {
+    text-align: center;
 }
