@@ -4,3 +4,5 @@ This will be my very first "The Odin Project" project. It'll be a simple recipe 
 Lasagna: https://creativecommons.org/publicdomain/
 Spaghetti Bolognese: https://creativecommons.org/publicdomain/zero/1.0/
 Pizza: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+
+I just updated it with CSS (10.02.2026)
