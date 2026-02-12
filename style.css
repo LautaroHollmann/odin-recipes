@@ -57,6 +57,7 @@ img {
 
 #home:hover {
     background-color: rgb(34, 148, 24);
+    font-size: 18px;
 }
 
 p {
@@ -67,7 +68,7 @@ p {
     text-align: center;
     margin: 5px auto;
     padding: 0px 8px;
-    max-width: 44px;
+    max-width: fit-content;
     display: block;
     background-color: rgb(10, 96, 3);
     font-family: Arial, Helvetica, sans-serif;
